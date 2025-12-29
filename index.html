@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Get List</title>
+
+<style>
+  body{
+    background:#0b0b0b;
+    color:#eaeaea;
+    font-family: Consolas, monospace;
+    padding:20px;
+  }
+  h3{
+    color:#00ffcc;
+    margin-bottom:10px;
+  }
+  pre{
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size:14px;
+  }
+</style>
+</head>
+<body>
+
+<h3>Get Out</h3>
+<pre id="output"></pre>
+
+<script>
+const data = [
+  
+
+  {
+    "_id": "694849d498871b56695eab87",
+    "name": "Jalwa Game Mod",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/694849d398871b56695eab85",
+    "downloadLink": "https://www.mediafire.com/file/oqwc3wrbfdj3ywg/J%E2%82%B3%E2%B1%A0%E2%82%A9%E2%82%B3_%CC%B8%E2%82%B1%E2%82%B3%E2%82%A6%C9%86%E2%B1%A0_M%CC%B8%C3%98%C4%90.apk/file",
+    "createdAt": "2025-12-21T19:26:12.734Z"
+  },
+
+  {
+    "_id": "693b262698871b56695dd01c",
+    "name": "MAXX BOOMBER",
+    "description": "Premium Unlock",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/693b262498871b56695dd01a",
+    "downloadLink": "https://www.mediafire.com/file/8ur7b0sxwsrd4eo/%F0%9D%90%8C%F0%9D%90%80%F0%9D%90%97%F0%9D%90%97_%F0%9D%90%81%F0%9D%90%8E%F0%9D%90%8C%F0%9D%90%81%F0%9D%90%84%F0%9D%90%91.apk/file",
+    "createdAt": "2025-12-11T20:14:30.380Z"
+  },
+
+  {
+    "_id": "692f5c3145a5e59efb533968",
+    "name": "Mini TV",
+    "description": "Premium Unlock",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/692f5c3045a5e59efb533966",
+    "downloadLink": "https://www.mediafire.com/file/gx7sdu3d1wwxrvr/Amazon_miniTV.apk/file",
+    "createdAt": "2025-12-02T21:37:53.031Z"
+  },
+
+  {
+    "_id": "690720288111dbdbc7066f7b",
+    "name": "Movie Hub",
+    "description": "Premium Unlocked",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/690720268111dbdbc7066f79",
+    "downloadLink": "https://www.mediafire.com/file/mend2slr0qkqfnj/MOVIES_HUB.apk/file",
+    "createdAt": "2025-11-02T09:11:04.171Z"
+  },
+
+  {
+    "_id": "69071fef8111dbdbc7066f6d",
+    "name": "Play Store",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/69071fec8111dbdbc7066f6b",
+    "downloadLink": "https://www.mediafire.com/file/8xffaud4jb8fw0x/Play_Store.apk/file",
+    "createdAt": "2025-11-02T09:10:07.005Z"
+  },
+
+  {
+    "_id": "68e69df950093022932b7278",
+    "name": "Block Iseen",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68e69df850093022932b7276",
+    "downloadLink": "https://www.mediafire.com/file/z717ui52snbnuvl/Block_Viewer.apk/file",
+    "createdAt": "2025-10-08T17:23:05.144Z"
+  },
+
+  {
+    "_id": "68cb0edfc5655e4f893a2dc8",
+    "name": "YouTube Lite",
+    "description": "Premium Unlock",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68cb0edfc5655e4f893a2dc6",
+    "downloadLink": "https://www.mediafire.com/file/gkz7lgapcpgqh7x/YouTube_Lite.apk/file",
+    "createdAt": "2025-09-17T19:41:19.891Z"
+  },
+
+  {
+    "_id": "68c110e6b7caea7d40b46818",
+    "name": "InShot Premium",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68c110e5b7caea7d40b46816",
+    "downloadLink": "https://www.mediafire.com/file/xjvop6dpiy1rf71/InShot_PREMIUM.apk/file",
+    "createdAt": "2025-09-10T05:47:18.018Z"
+  },
+
+  {
+    "_id": "68bfc7595d5516076538575b",
+    "name": "Live Camera",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68bfc7595d55160765385759",
+    "downloadLink": "https://www.mediafire.com/file/cyq74z81jq46nh2/Live_Camera.apk/file",
+    "createdAt": "2025-09-09T06:21:13.807Z"
+  },
+
+  {
+    "_id": "68bd34cc3b4211d73d234ec6",
+    "name": "Movie Box",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68bd34cb3b4211d73d234ec4",
+    "downloadLink": "https://www.mediafire.com/file/ntkuxnaw2mw5ofo/MovieBox_.apk/file",
+    "createdAt": "2025-09-07T07:31:24.115Z"
+  },
+
+  {
+    "_id": "68b14bd93b4211d73d22be41",
+    "name": "Direct Locator",
+    "description": "Free",
+    "version": "1.1",
+    "downloadCount": 0,
+    "thumbnail": "/file/68b14bd83b4211d73d22be3f",
+    "downloadLink": "https://www.mediafire.com/file/yjytm7bks4dd3ul/Direct_Locater.apk/file",
+    "createdAt": "2025-08-29T06:42:33.319Z"
+  },
+
+  {
+    "_id": "68aa0bcfe0dc883df47900fa",
+    "name": "Ads Remover",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68aa0bcee0dc883df47900f8",
+    "downloadLink": "https://www.mediafire.com/file/57xe13xf1v85nb9/Ads_Remove.apk/file",
+    "createdAt": "2025-08-23T18:43:27.282Z"
+  },
+
+  {
+    "_id": "68a0bfe17f236eba23e2dccd",
+    "name": "Funsta",
+    "description": "Free",
+    "version": "1.0",
+    "downloadCount": 0,
+    "thumbnail": "/file/68a0bfe07f236eba23e2dccb",
+    "downloadLink": "https://www.mediafire.com/file/884shjrht6bqfwz/Funsta_3.5.3.apk/file",
+    "createdAt": "2025-08-16T17:29:05.246Z"
+  }
+]
+
+  
+  
+document.getElementById("output").textContent =
+  JSON.stringify(data, null, 2);
+</script>
+
+</body>
+</html>
