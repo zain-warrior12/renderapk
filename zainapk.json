@@ -10,6 +10,18 @@
     "createdAt": "2025-12-21T19:26:12.734Z"
   },
 
+     {
+        name: 'Modi ji Mario',
+        iconImg: 'https://i.postimg.cc/SQgYN3JX/images-6.jpg',
+        iconClass: 'whatsapp',
+        status: 'Premium Unlocked',
+        downloads: '10K+',
+        size: '45MB',
+        version: '3.5',
+        rating: '4.9⭐',
+        downloadUrl: 'https://www.mediafire.com/file/gw8gekc8ci5ijkh/Flying+Modi_null.apk/file'
+    },
+
   {
     "_id": "693b262698871b56695dd01c",
     "name": "MAXX BOOMBER",
@@ -142,4 +154,5 @@
     "createdAt": "2025-08-16T17:29:05.246Z"
   }
 ]
+
 
